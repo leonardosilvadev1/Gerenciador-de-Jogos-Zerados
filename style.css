@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0f1587;
+    background: linear-gradient(90deg, rgba(15, 21, 135, 1) 0%, rgba(13, 23, 99, 1) 50%, rgba(7, 4, 64, 1) 100%);
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+#adicionar{
+    height: 70px;
+    width: 150px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: rgb(0, 5, 71);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    z-index: 1000;
+}
+
+dialog{
+    height: 800px;
+    width: 500px;
+    border: none;
+    border-radius: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 5px;
+}
+
+input, select{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.button_modal{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #0f1587;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;
+}
